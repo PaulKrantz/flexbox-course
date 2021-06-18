@@ -1,0 +1,48 @@
+.main-body > .left-body {
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-gap: 42px;
+    width: 800px;
+}
+
+.main-body > .left-body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.large-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.green-button {
+    padding: 1px 20px;
+    background-color: #4bce79;
+    color: black;
+    display: flex;
+    width: 200px;
+    height: 70px;
+    border-radius: 2px;
+}
+
+.black-button {
+    padding: 1px 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 200px;
+    height: 70px;
+    border-radius: 2px;
+}
+
+h3 {
+    color: white
+}
+h4 {
+    color: blue
+}

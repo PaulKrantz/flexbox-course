@@ -1,0 +1,18 @@
+
+.links-bottom {
+    height: 60px;
+    background-color:#36383f;
+    font-family: 'ubuntu Condensed', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+.links-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+    border: #ffffff;
+    margin: 1px;
+}

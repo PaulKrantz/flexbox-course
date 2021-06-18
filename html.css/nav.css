@@ -1,0 +1,86 @@
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    height: 10px;   
+}
+
+.navigation-wrapper {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+}
+
+/* Left column*/
+.codepen-logo img {
+    width: 150px;
+    height: 100%;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+/* Center */
+.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 7px;
+    width: 500px;
+}
+
+.explore {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-column > .explore a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:#f4e17a;
+    height: 150px;
+    text-decoration: none;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    width: 50px;
+    border-radius: 2px;
+}
+
+.links-wrapper > .nav-link2 a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+
+/* Right Side */
+.links-account {
+    display: flex;
+    justify-content: center; 
+}
+
+.links-account a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:white;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+    padding: 15px 20px;
+    background-color: #36383f;
+    width: 50px;
+    border-radius: 4px;
+}
+
+.search a {
+  background-color: black;
+}

@@ -1,0 +1,21 @@
+.footer-bottom a {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.links-bottom {
+  display: flex;
+  padding: 1px;
+  background-color:#36383f;
+  font-family: 'Jost', sans-serif;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-bottom a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid gray;
+  padding: 14px 60px;
+}

@@ -1,0 +1,95 @@
+.main-body {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 0.1fr 0.2fr;
+    background: rgb(53,56,64);
+    background: linear-gradient(90deg, rgba(53,56,64,1) 0%, rgba(49,52,61,1) 35%, rgba(0,0,0,1) 100%); 
+}
+
+.left-body{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    padding-right: 30%;
+}
+
+.overphoto {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.large-buttons {
+    display: flex;
+}
+
+.green-button {
+    padding: 10px 20px;
+    margin: 0 10px 0 0;
+    border-radius: 2px;
+    background-color: #4bce79;
+    color: black;
+    width: 200px;
+    height: 70px;
+}
+
+.black-button {
+    padding: 5px 20px;
+    margin: 0 10px 0 0;
+    border-radius: 2px;
+    background-color: #111111;
+    color: white;
+    width: 130px;
+    height: 60px;
+    border:10px;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+}
+
+h2 {
+  color:lightgray;
+  font-size: 25px;
+}
+
+h3 {
+  color: black;
+  font-size: 25px;
+}
+
+h4 {
+  color: white;
+  font-size: 25px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.overphoto {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.codepen-right img {
+    box-shadow: -6px 0px 13px 5px rgba(0,0,0,0.33);
+-webkit-box-shadow: -6px 0px 13px 5px rgba(0,0,0,0.33);
+-moz-box-shadow: -6px 0px 13px 5px rgba(0,0,0,0.33);
+    width: 500px;
+    height: 100%;
+    margin: 0;
+}
+
+.white {
+  color:white;
+}
+
+.blue {
+  color:#56d4fc;
+
+}
